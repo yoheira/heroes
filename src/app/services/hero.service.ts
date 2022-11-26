@@ -19,7 +19,7 @@ export class HeroService {
   constructor(private http: HttpClient,
     private messageService: MessageService) { }
 
-    private heroesUrl = 'http://localhost:4200/api/v1/heroes';  // URL to web api
+    private heroesUrl = 'https://6341803c16ffb7e275d2acdf.mockapi.io/api/v1/heroes';  // URL to web api
 
     /** Log a HeroService message with the MessageService */
     private log(message: string) {
